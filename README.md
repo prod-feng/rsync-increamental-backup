@@ -46,8 +46,6 @@ if you have alot of files in the folder to backup.
 >SERVER=
 >
 >
-> \#export RSYNC_PASSWORD=XXXXXX
->
 > \# folders for saving the older files/folders.
 >
 >BACKUPDIR=`date +%Y-%m-%d_%H-%M-%S`
