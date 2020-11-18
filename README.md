@@ -19,7 +19,7 @@ The script is coded on Centos 7, rsync  version 3.1.2.
 >      echo "Backup is already running, please try again later!"
 >
 >    exit
-?
+>
 > fi
 >
 > \# Create the lockfile
@@ -30,7 +30,7 @@ The script is coded on Centos 7, rsync  version 3.1.2.
 >
 >  echo " can not make lock file: $lock"
 >
->. exit
+> exit
 >
 >fi
 >
