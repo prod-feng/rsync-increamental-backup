@@ -53,7 +53,7 @@ The script is coded on Centos 7, rsync  version 3.1.2.
 >
 > \# folders for saving the older files/folders.
 >
->BACKUPDIR=`date +%Y-%m-%d_%H-%M-%S`
+>BACKUPDIR=\`date +%Y-%m-%d_%H-%M-%S\`
 >
 > \# options for rsync command...
 >
