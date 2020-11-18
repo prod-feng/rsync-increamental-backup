@@ -4,8 +4,8 @@ Below is a simple bash script that uses rsync command, with option "--backup" an
 In this way, only the old files will be copied to the "--backup-dir". Comparing the backup apps using  hard links, it can drastically reduce the number of links 
 if you have alot of files in the folder to backup.
 
-With this method, I can first do a full backup to ${DSTDIR} folder using rsync(like monthly), and after that I can use this script to do increaental backup more 
-frequently(like daily, etc.).
+With this method, I can first do a full backup to ${DSTDIR} folder using rsync, and after that I can use this script to do increaental backup more 
+frequently(like daily, etc.). The ${DSTDIR} folder always has the most recent data backuped.
 
 The script is coded on Centos 7, rsync  version 3.1.2.
 
