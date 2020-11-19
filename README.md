@@ -14,6 +14,7 @@ The script is coded on Centos 7, rsync  version 3.1.2.
 > lock=/tmp/rsync-backup-local.lock
 >
 >  \# Check the lock file. Only alow one instance till finished.
+>
 > if [ -f $lock ]; then
 >
 >      echo "Backup is already running, please try again later!"
