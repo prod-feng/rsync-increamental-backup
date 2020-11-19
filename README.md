@@ -29,9 +29,9 @@ The script is coded on Centos 7, rsync  version 3.1.2.
 >
 >if [ $? -ne 0 ]; then
 >
->  echo " can not make lock file: $lock"
+>   echo " can not make lock file: $lock"
 >
->  exit
+>   exit
 >
 >fi
 >
